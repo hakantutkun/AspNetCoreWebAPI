@@ -23,3 +23,28 @@
 2022-11-27 22:10:04.593 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2022-11-27 22:10:04.594 +03:00 [INF] Hosting environment: Development
 2022-11-27 22:10:04.596 +03:00 [INF] Content root path: D:\Programming\Git\0_TUTORIALS\dotnet\AspNetCoreWebAPITutorial\HotelListing\HotelListing.API\
+2022-11-27 22:31:06.835 +03:00 [INF] Now listening on: https://localhost:7298
+2022-11-27 22:31:06.871 +03:00 [INF] Now listening on: http://localhost:5298
+2022-11-27 22:31:06.877 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-27 22:31:06.879 +03:00 [INF] Hosting environment: Development
+2022-11-27 22:31:06.881 +03:00 [INF] Content root path: D:\Programming\Git\0_TUTORIALS\dotnet\AspNetCoreWebAPITutorial\HotelListing\HotelListing.API\
+2022-11-27 22:31:30.980 +03:00 [INF] Now listening on: https://localhost:7298
+2022-11-27 22:31:31.048 +03:00 [INF] Now listening on: http://localhost:5298
+2022-11-27 22:31:31.059 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-27 22:31:31.064 +03:00 [INF] Hosting environment: Development
+2022-11-27 22:31:31.065 +03:00 [INF] Content root path: D:\Programming\Git\0_TUTORIALS\dotnet\AspNetCoreWebAPITutorial\HotelListing\HotelListing.API\
+2022-11-27 22:32:14.439 +03:00 [INF] Now listening on: https://localhost:7298
+2022-11-27 22:32:14.487 +03:00 [INF] Now listening on: http://localhost:5298
+2022-11-27 22:32:14.492 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-27 22:32:14.493 +03:00 [INF] Hosting environment: Development
+2022-11-27 22:32:14.494 +03:00 [INF] Content root path: D:\Programming\Git\0_TUTORIALS\dotnet\AspNetCoreWebAPITutorial\HotelListing\HotelListing.API\
+2022-11-27 22:32:37.874 +03:00 [INF] Now listening on: https://localhost:7298
+2022-11-27 22:32:37.933 +03:00 [INF] Now listening on: http://localhost:5298
+2022-11-27 22:32:37.940 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-27 22:32:37.941 +03:00 [INF] Hosting environment: Development
+2022-11-27 22:32:37.942 +03:00 [INF] Content root path: D:\Programming\Git\0_TUTORIALS\dotnet\AspNetCoreWebAPITutorial\HotelListing\HotelListing.API\
+2022-11-27 22:32:55.523 +03:00 [INF] Now listening on: https://localhost:7298
+2022-11-27 22:32:55.684 +03:00 [INF] Now listening on: http://localhost:5298
+2022-11-27 22:32:55.711 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-27 22:32:55.750 +03:00 [INF] Hosting environment: Development
+2022-11-27 22:32:55.775 +03:00 [INF] Content root path: D:\Programming\Git\0_TUTORIALS\dotnet\AspNetCoreWebAPITutorial\HotelListing\HotelListing.API\
