@@ -20,7 +20,7 @@ namespace HotelListing.API.Repository
         public async Task<IEnumerable<IdentityError>> Register(ApiUserDto userDto)
         {
             var user = _mapper.Map<ApiUser>(userDto);
-            user.UserName = userDto.Email;
+            user.UserName = userDto.EmailAddress;
 
             var result = await _userManager.CreateAsync(user, userDto.Password);
 
@@ -28,6 +28,16 @@ namespace HotelListing.API.Repository
                 await _userManager.AddToRoleAsync(user, "User");
 
             return result.Errors;
+        }
+
+        public async Task<bool> Login(LoginDto loginDto)
+        {
+            var user = await _userManager.FindByEmailAsync(loginDto.EmailAddress);
+
+            if (user is null)
+                return default;
+
+            return await _userManager.CheckPasswordAsync(user, loginDto.Password);
         }
     }
 }
