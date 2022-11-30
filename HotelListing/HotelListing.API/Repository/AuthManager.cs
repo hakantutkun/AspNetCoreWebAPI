@@ -58,7 +58,7 @@ namespace HotelListing.API.Repository
 
             var token = await GenerateToken();
 
-            _logger.LogInformation($"Token generated for user with email {LoginDto.EmailAddress} | Token: {token}");
+            _logger.LogInformation($"Token generated for user with email {loginDto.EmailAddress} | Token: {token}");
 
             return new AuthResponseDto
             {

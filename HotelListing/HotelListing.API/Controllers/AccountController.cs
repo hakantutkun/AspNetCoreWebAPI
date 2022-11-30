@@ -27,28 +27,18 @@ namespace HotelListing.API.Controllers
         {
             _logger.LogInformation($"Registration Attempt for {apiUserDto.EmailAddress}");
 
-            try
-            {
-                var errors = await _authManager.Register(apiUserDto);
+            var errors = await _authManager.Register(apiUserDto);
 
-                if (errors.Any())
+            if (errors.Any())
+            {
+                foreach (var error in errors)
                 {
-                    foreach (var error in errors)
-                    {
-                        ModelState.AddModelError(error.Code, error.Description);
-                    }
-                    return BadRequest(ModelState);
+                    ModelState.AddModelError(error.Code, error.Description);
                 }
-
-                return Ok(apiUserDto);
+                return BadRequest(ModelState);
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Something went wrong in the {nameof(Register)} - " +
-                                     $"User Registration attempt for {apiUserDto.EmailAddress}");
 
-                return Problem($"Something went wrong in the {nameof(Register)}. Please contact support.", statusCode: 500);
-            }
+            return Ok(apiUserDto);
 
         }
 
@@ -61,20 +51,12 @@ namespace HotelListing.API.Controllers
         public async Task<ActionResult> Login([FromBody] LoginDto loginDto)
         {
             _logger.LogInformation($"Login attempt for {loginDto.EmailAddress}");
-            try
-            {
-                var authResponse = await _authManager.Login(loginDto);
+            var authResponse = await _authManager.Login(loginDto);
 
-                if (authResponse == null)
-                    return Unauthorized();
+            if (authResponse == null)
+                return Unauthorized();
 
-                return Ok(authResponse);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, $"Something went wrong in the {nameof(Login)}");
-                return Problem($"Something went wrong in the {nameof(Login)}", statusCode: 500);
-            }
+            return Ok(authResponse);
         }
 
 
