@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdCsxsPGrlEmr+ueQAGh1vAAAAAACAAAAAAAQZgAAAAEAACAAAABlMXBaAtBXRD8uKF0ofxzMhTQc+TFLdVn/BKKlIJI/TwAAAAAOgAAAAAIAACAAAABMaoBYMWbOxVF27M9Wm/37NPObvSYEWRL+Y1AlFk8A6YAAAABRd5yiK6gfEvmZh1daala056+nU23If/BoDNDpgNQUr29B7t7dlialUzEeUWz2dGg9mXDYAxr58X2CYXei5i9eNpAxgE2uaCf6qRnl6u/FSYKVTee26AfjeDSQg29uE2qQBE05KJdqH6BHBWbu012pcLEtwZgo2m6xOMmbn44nNEAAAACBl+/bHOBphaj5LA52MB6JkEORli7q3C4fEbKWHm7CHz61hJIKymp5DurxkNoEOG+5EoVueT24NlAUPuvJt105</EncryptedPassword>
+    <History>False|2022-12-04T18:41:15.9172267Z;False|2022-12-04T21:29:23.7499618+03:00;False|2022-12-04T21:27:19.4200080+03:00;False|2022-12-04T21:23:04.3072063+03:00;False|2022-12-04T21:10:24.6839626+03:00;True|2022-12-04T21:02:58.2741627+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="HotelListing.API.Data.HotelListingDbContext">
+      <Value>Server=tcp:hkn-apps-dbserver.database.windows.net,1433%3bInitial Catalog=HotelListing.APIDb%3bUser ID=hkn%40hkn-apps-dbserver%3bPassword=P%40ssword1</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

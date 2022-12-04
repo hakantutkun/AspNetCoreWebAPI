@@ -11,5 +11,6 @@
     <WebStackScaffolding_DbContextTypeFullName>HotelListing.API.Data.HotelListingDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>D:\Programming\Git\0_TUTORIALS\dotnet\AspNetCoreWebAPITutorial\HotelListing\HotelListing.API\Properties\PublishProfiles\HotelListingAPI-hkn - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
